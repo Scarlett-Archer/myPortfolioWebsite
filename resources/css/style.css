@@ -1,0 +1,93 @@
+/* universal */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "gabriela", serif;
+}
+
+body {
+  padding-top: 5%;
+}
+
+h1 {
+  font-family: "cabin sketch", serif;
+}
+
+/* nav section */
+.name {
+  display: inline-block;
+  position: absolute;
+  padding: 0;
+  margin: 0 2%;
+  top: 15%;
+  font-size: 1.5em;
+  /* background-color: red;*/
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ceb5f5;
+  padding: 1%;
+}
+
+nav ul {
+  margin: 0 5%;
+  padding: 0;
+  text-align: right;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-family: "cabin sketch", serif;
+  width: 100px;
+  display: block;
+  font-weight: bold;
+  padding: 2%;
+  margin: 4% 6%;
+  text-align: center;
+}
+
+nav li a:hover {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+/*----------- header section ---------------------------------*/
+header {
+  background-image: url(../media/images/background5.jpg);
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*.button {
+    background-color: white;
+    padding: 2%;
+    border: 1px dotted black;
+    border-radius: 50%;
+    width: 10%;
+}*/
+
+.imageOfMe {
+  text-align: center;
+  padding: 5% 10%;
+  
+}
+
+.imageOfMe img {
+  width: 20%;
+  border-radius: 100%;
+}
+
+.message:hover {
+    background-color: black;
+}
