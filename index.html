@@ -15,16 +15,18 @@
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bad+Script&family=Creepster&family=Gabriela&family=Itim&family=Kurale&family=Lora&family=Merriweather:ital@0;1&family=News+Cycle&family=Work+Sans:wght@400;500;800&display=swap"
       rel="stylesheet"
     />
-    <script src="./resources/script/script.js" async></script>
+
     <script
       src="https://kit.fontawesome.com/f678d1a712.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./resources/script/script.js" async></script>
   </head>
   <body>
     <!--header and nav section-->
     <nav>
       <div class="name"><h1>Scarlett Archer</h1></div>
+
       <ul role="presentation">
         <li>
           <a href="#about">About Me</a>
@@ -42,46 +44,50 @@
     </nav>
 
     <header>
-      <!--<div class="button">Click for a random fact about me💭</div>-->
-      <!--section for the random facts to appear, using javascript-->
-
-      <div class="randomFacts"></div>
       <div class="imageOfMe">
         <img
-          src="./resources/media/images/me.jpeg"
+          src="./resources/media/images/me2.jpeg"
           alt="A smiling picture of Scarlett Archer"
         />
+        <!--section for the random facts to appear, using javascript-->
+        <button class="random">Click for a random fact about me💭</button>
+        <div class="randomFacts"></div>
       </div>
     </header>
     <!--main section-->
     <main>
       <section id="about">
-        <h2>About Me...</h2>
+        <h2>About Me...💭</h2>
         <p>Hello! Thank you for taking the time to look at my website.</p>
+        <br />
         <p>
           My name is Scarlett and I am an ATT qualified tax accountant. This may
           not necessarily be direct experience in a tech role however, I have
           many transferable skills. In addition to this, I have a genuine
           excitement and feeling of fulfilment when I code.
         </p>
+        <br />
         <p>
           I have joined Codecademy to help me build the required skills that
           will allow me to achieve my dream career as a Web Developer.
         </p>
+        <br />
         <p>
           I enjoy being creative and I love to problem solve. The process of an
           idea coming together from a creative perspective, as well as a coding
           one, is an amazing feeling...addictive!
         </p>
+        <br />
         <p>
           I love to learn and I can't wait to continue my coding journey, which
           I hope will lead me to achieveing my ultimate goal of becoming a Web
           Developer.
         </p>
+        <!-- <button class="random">Click for a random fact about me💭</button> -->
       </section>
       <section id="skills">
         <h2>Skills...</h2>
-        <div class="container">
+        <div class="icon-container">
           <i class="fa-brands fa-html5 fa-2xl"></i>
           <i class="fa-brands fa-css3-alt fa-2xl"></i>
           <i class="fa-brands fa-js fa-2xl"></i>
@@ -97,15 +103,15 @@
       <h2>Contact Me...</h2>
       <div class="contactLinks">
         <a href="mailto:scarlett_archer6@yahoo.com" target="_blank"
-          ><i class="fa-solid fa-envelope fa-2xl"></i
+          ><i class="fa-solid fa-envelope fa-2xl item"></i
         ></a>
         <a
           href="https://www.linkedin.com/in/scarlett-archer-a03850189/?originalSubdomain=uk"
           target="_blank"
-          ><i class="fa-brands fa-linkedin fa-2xl"></i
+          ><i class="fa-brands fa-linkedin fa-2xl item"></i
         ></a>
         <a href="https://github.com/Scarlett-Archer" target="_blank"
-          ><i class="fa-brands fa-github fa-2xl"></i
+          ><i class="fa-brands fa-github fa-2xl item"></i
         ></a>
       </div>
     </footer>

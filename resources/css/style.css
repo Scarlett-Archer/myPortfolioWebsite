@@ -7,20 +7,26 @@
 
 body {
   padding-top: 5%;
+  background-color: #F2F1ED;
 }
 
 h1 {
   font-family: "cabin sketch", serif;
 }
 
+nav, header, main, footer {
+    box-shadow: 4px 4px 4px black;
+}
+
 /* nav section */
 .name {
   display: inline-block;
   position: absolute;
-  padding: 0;
-  margin: 0 2%;
+
+  margin: 0 1%;
   top: 15%;
   font-size: 1.5em;
+
   /* background-color: red;*/
 }
 
@@ -28,8 +34,11 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #ceb5f5;
+  background-color: #E7BFBB;
   padding: 1%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 5%;
 }
 
 nav ul {
@@ -53,41 +62,158 @@ nav li a {
   padding: 2%;
   margin: 4% 6%;
   text-align: center;
+  
 }
 
 nav li a:hover {
   text-transform: uppercase;
   text-decoration: underline;
+  font-size: 1.2em;
+  transition: 0.5s;
 }
 
 /*----------- header section ---------------------------------*/
 header {
   background-image: url(../media/images/background5.jpg);
- 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-/*.button {
-    background-color: white;
-    padding: 2%;
-    border: 1px dotted black;
-    border-radius: 50%;
-    width: 10%;
-}*/
-
-.imageOfMe {
+  border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5%;
   text-align: center;
-  padding: 5% 10%;
-  
+  padding: 2% 10%;
 }
 
 .imageOfMe img {
   width: 20%;
   border-radius: 100%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px black;
 }
 
-.message:hover {
-    background-color: black;
+/* button */
+
+.random {
+  background-color: #E7BFBB;
+  padding: 2%;
+  border: 3px dashed solid black;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 2px black;
+  
+}
+
+.random:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 4px black;
+  border: 4px solid #E7BFBB;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  font-size: 1em;
+}
+
+.random:active {
+    box-shadow: none;
+    font-size: 0.8em;
+    transition: 0.5s;
+}
+
+.imageOfMe img:hover {
+    width: 30%;
+    transition: 1s;
+}
+
+/*--------- main ----------------------------*/
+
+main{
+    padding: 2%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 1%;
+    
+    border-radius: 5%;
+    background-color: #E7BFBB;
+}
+#about h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#about p {
+   line-height: 1.5em;
+   font-size: 1em;
+}
+
+#about h2 {
+    margin-bottom: 2%;
+}
+
+/* skills section */
+
+#skills {
+    margin-top: 1%;
+    padding: 2%;
+    text-align: center;
+}
+
+#skills h2 {
+    margin-bottom: 1%;
+    font-size: 2em;
+}
+
+.icon-container {
+    margin-top: 1%;
+  
+    padding: 1%;
+}
+
+main .fa-brands {
+    padding: 3%;
+   
+}
+
+/*---------- contact ----------------------*/
+
+footer {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 2%;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5%;
+    background-color: #E7BFBB;
+}
+
+footer h2 {
+    margin-bottom: 1%;
+    font-size: 2em;
+}
+
+.contactLinks {
+    /*background-color: green;*/
+    padding: 1%;
+}
+
+.contactLinks .item {
+   /* background-color: red;*/
+    padding: 3%;
+}
+
+.contactLinks a{
+    color: black;
+}
+
+.contactLinks a:hover {
+    color: darkred;
+    
+}
+
+.contactLinks .item:hover{
+    border: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 1px 1px 1px black;
+    transition: 0.5s;
 }

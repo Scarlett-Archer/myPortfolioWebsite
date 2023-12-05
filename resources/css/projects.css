@@ -1,3 +1,124 @@
-.flex-item img{
-    width: 20%;
+/* project nav */
+
+/*.project-nav li {
+    margin-right: 50%;
+}*/
+.project-nav{
+    background-color: #DCDCEA;
+}
+
+/*---- project header ---------*/
+
+.project-header {
+  padding: 5%;
+  background-image: url(../media/images/background4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project-header h2 {
+  font-size: 2em;
+  margin-bottom: 2%;
+}
+
+.project-header p {
+  font-size: 1.2em;
+  background-color: #DCDCEA;
+  border-radius: 50%;
+  padding: 4%;
+}
+
+/*-----flexbox-----------------*/
+.project-main {
+  margin-bottom: 1%;
+  background-color: #DCDCEA;
+
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 40%;
+  height: 25%;
+  margin: 1%;
+}
+
+.flex-item img {
+  width: 100%;
+  /*border-radius: 5%;*/
+}
+
+.flex-item p {
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 1px black;
+}
+
+.flex-item a {
+  text-decoration: none;
+}
+
+.item-1 p {
+  background-color: #1964d6;
+  color: white;
+}
+
+.item-2 p {
+  background-color: #76493b;
+  color: white;
+}
+
+.item-3 p {
+  background-color: black;
+  color: white;
+}
+
+.item-4 p {
+  background-color: #ef8080;
+  color: white;
+}
+
+.item-5 p {
+  background-color: #B69857;
+  color: white;
+}
+
+.item-6 p {
+  background-color: #db7092;
+  color: white;
+}
+
+.item-7 p {
+  background-color: #707171;
+  color: white;
+}
+
+.item-8 p {
+  background-color: #028b8b;
+  color: white;
+}
+
+.item-9 p {
+  background-color: #b54412;
+  color: white;
+}
+
+.item-10 p {
+  background-color: #FD7529;
+  color: white;
+}
+
+.flex-item p:hover {
+  font-size: 1.2em;
+  text-decoration: underline;
+  transition: 0.5s;
+  padding: 1%;
+  box-shadow: 2px 2px 2px black;
 }
