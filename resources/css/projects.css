@@ -3,8 +3,8 @@
 /*.project-nav li {
     margin-right: 50%;
 }*/
-.project-nav{
-    background-color: #DCDCEA;
+.project-nav {
+  background-color: #dcdcea;
 }
 
 /*---- project header ---------*/
@@ -24,7 +24,7 @@
 
 .project-header p {
   font-size: 1.2em;
-  background-color: #DCDCEA;
+  background-color: #dcdcea;
   border-radius: 50%;
   padding: 4%;
 }
@@ -32,8 +32,7 @@
 /*-----flexbox-----------------*/
 .project-main {
   margin-bottom: 1%;
-  background-color: #DCDCEA;
-
+  background-color: #dcdcea;
 }
 
 .flex-container {
@@ -86,7 +85,7 @@
 }
 
 .item-5 p {
-  background-color: #B69857;
+  background-color: #b69857;
   color: white;
 }
 
@@ -111,7 +110,7 @@
 }
 
 .item-10 p {
-  background-color: #FD7529;
+  background-color: #fd7529;
   color: white;
 }
 
@@ -121,4 +120,86 @@
   transition: 0.5s;
   padding: 1%;
   box-shadow: 2px 2px 2px black;
+}
+
+/*------------------responsive design-----------------------*/
+@media (max-width: 500px) {
+  .project-header p {
+    padding: 8%;
+    font-size: 0.8em;
+    border-radius: 40%;
+  }
+
+  .project-main p {
+    font-size: 0.8em;
+  }
+
+  .project-main p:hover {
+    font-size: 1em;
+  }
+  /* for when mobile devices touch the p elements, as they will not have mouse cursors*/
+  .project-main p:active {
+    font-size: 1em;
+    text-decoration: underline;
+  }
+
+  .project-main .flex-item {
+    margin-bottom: 4%;
+  }
+}
+
+/*--------tablet view---------*/
+@media (min-width: 750px) {
+  .project-header p {
+    border-radius: 30%;
+    padding: 4%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .project-header h2 {
+    font-size: 3em;
+  }
+  .project-header p {
+    border-radius: 50%;
+    padding: 4%;
+  }
+}
+
+/*---------------desktop view----------------------*/
+@media (min-width: 2000px) {
+  .project-nav h1 {
+    font-size: 3em;
+    margin-top: 0;
+  }
+  .project-nav ul li {
+    font-size: 2em;
+  }
+
+  /* header section */
+
+  .project-header {
+    margin-top: 0.5%;
+  }
+
+  .project-header h2 {
+    font-size: 4.5em;
+  }
+
+  .project-header p {
+    font-size: 2em;
+  }
+
+  /* main section */
+
+  .project-main p {
+    font-size: 2em;
+    margin-top: 1%;
+    box-shadow: 2px 2px 2px black;
+  }
+
+  .project-main p:hover {
+    font-size: 2.5em;
+    box-shadow: 4px 4px 4px black;
+  }
 }
