@@ -30,7 +30,7 @@ footer {
   top: 15%;
   font-size: 1.5em;
 
-  /* background-color: red;*/
+  
 }
 
 nav {
@@ -193,12 +193,10 @@ footer h2 {
 }
 
 .contactLinks {
-  /*background-color: green;*/
   padding: 1%;
 }
 
 .contactLinks .item {
-  /* background-color: red;*/
   padding: 3%;
 }
 
@@ -236,7 +234,6 @@ footer h2 {
 
   .name {
     font-size: 1em;
-    /* background-color: pink;*/
     position: static;
     min-width: 40%;
   }
@@ -261,12 +258,10 @@ footer h2 {
     width: auto;
   }
 
-  /*hiding the nav list until it's hovered over*/
-  nav ul {
+  /*hiding the nav list in mobile view, apart from projects as this is a separate page*/
+  a[href^="#"] {
     display: none;
   }
-
-  
 
   /*-------- mobile header section --------*/
   header {
@@ -285,7 +280,7 @@ footer h2 {
     width: 50%;
   }
 
-  /*as mobile devices are touch screen, adding an active element*/
+  /*as mobile devices are touch screen, adding an active element for when they are clicked on*/
 
   .imageOfMe img:active {
     width: 70%;
@@ -354,7 +349,7 @@ footer h2 {
 /*------------------- Laptop view -----------------------------*/
 
 @media (min-width: 501px) {
-     nav,
+  nav,
   header,
   main,
   footer {
@@ -362,16 +357,16 @@ footer h2 {
   }
 
   /* nav section */
- nav {
-    padding: 2% ;
- }
- 
- /* header section */
+  nav {
+    padding: 2%;
+  }
+
+  /* header section */
   header {
     margin-top: 4%;
   }
 
-  .imageOfMe img{
+  .imageOfMe img {
     display: block;
     margin: 2% auto;
     width: 30%;
@@ -382,29 +377,28 @@ footer h2 {
     width: 40%;
     box-shadow: 4px 4px 4px black;
   }
-
 }
 
 @media (min-width: 900px) {
-     header {
+  header {
     margin-top: 3%;
   }
 }
 
 @media (min-width: 1400px) {
-    nav {
-        padding: 1%;
-    }
+  nav {
+    padding: 1%;
+  }
 
-     header {
+  header {
     margin-top: 0;
   }
 
-  .imageOfMe img{
+  .imageOfMe img {
     width: 20%;
   }
 
-  .imageOfMe img:hover{
+  .imageOfMe img:hover {
     width: 30%;
   }
 
@@ -421,75 +415,67 @@ footer h2 {
 /*-------------------desktop view-----------------------*/
 
 @media (min-width: 2000px) {
-   nav,
+  nav,
   header,
   main,
   footer {
     box-shadow: 4px 4px 4px black;
   }
 
-    h1 {
-        font-size: 2em;
-        margin-top: 1.5%;
-    }
-
-  
-
-    nav {
-        margin-bottom: 0;
-        padding: 1.5%;
-    }
-
-    nav ul li {
-        font-size: 1.5em;
-        padding: 0 2%;
-     
-    }
-    nav ul li a{
-        padding: 0 2%;
-      
-        width: 100%;
-    }
-
-    /*header section*/
-    header {
-        margin-top: 0.5%;
-    
-    }
-
-
-    .random {
-        font-size: 1.5em;
-        
-    }
-
-    .random:hover {
-        font-size: 2em;
-        box-shadow: 4px 4px 4px black;
-    }
-
-    .random:active {
-  box-shadow: none;
-  font-size: 1.5em;
-  transition: 0.5s;
-}
-
-/* main section */
- #about h2{
-        font-size: 4em;
-    }
-
-#about p {
+  h1 {
     font-size: 2em;
-}
+    margin-top: 1.5%;
+  }
 
-#skills h2 {
+  nav {
+    margin-bottom: 0;
+    padding: 1.5%;
+  }
+
+  nav ul li {
+    font-size: 1.5em;
+    padding: 0 2%;
+  }
+  nav ul li a {
+    padding: 0 2%;
+
+    width: 100%;
+  }
+
+  /*header section*/
+  header {
+    margin-top: 0.5%;
+  }
+
+  .random {
+    font-size: 1.5em;
+  }
+
+  .random:hover {
+    font-size: 2em;
+    box-shadow: 4px 4px 4px black;
+  }
+
+  .random:active {
+    box-shadow: none;
+    font-size: 1.5em;
+    transition: 0.5s;
+  }
+
+  /* main section */
+  #about h2 {
     font-size: 4em;
-}
+  }
 
-#contact h2 {
+  #about p {
+    font-size: 2em;
+  }
+
+  #skills h2 {
     font-size: 4em;
-}
+  }
 
-
+  #contact h2 {
+    font-size: 4em;
+  }
 }
