@@ -25,12 +25,9 @@ footer {
 .name {
   display: inline-block;
   position: absolute;
-
   margin: 0 1%;
   top: 15%;
   font-size: 1.5em;
-
-  
 }
 
 nav {

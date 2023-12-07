@@ -20,7 +20,6 @@ const randomFact = (array) => {
 
 randButton.onclick = randFunc;
 
-
 //-------------------Function for nav bar depending on width of screen --------------
 //When in mobile view, only the h1 appears until mouse enters then the nav bar appears. Once it leaves, it disappears again.
 
