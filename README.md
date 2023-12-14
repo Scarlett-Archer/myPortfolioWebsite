@@ -13,3 +13,5 @@ I utilised JavaScript to create some interactivity between the website and user.
 Furthermore, I have included additional JavaScript code which is currently commented out. This was written to hide the nav bar menu options when in mobile view, but appears when it is hovered over and then disappears once the mouse exits the nav section.
 The code works however, I noticed that when I change the view size to tablet or desktop, the style of the nav bar does not automatically revert to it's original style, the page has to be reloaded in order to achieve this. Hence why it is currently commented out, as I plan to revisit this once I have an improved understanding of using JavaScript with Media Queries.
 
+## Access
+You can access my website on GitHub Pages using the following link: https://scarlett-archer.github.io/myPortfolioWebsite/
